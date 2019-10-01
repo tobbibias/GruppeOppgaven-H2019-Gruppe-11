@@ -1,0 +1,20 @@
+@startuml
+:lagstyrer: as styrer
+(lage idrettslag) as lagelag
+(godkjenne idrettsutøvere) as godkjenne
+(fjerne medlemmer) as fjernemedlemmer
+(se medlemmer) as se
+(se arrangementer) as searr
+(se påmelte medlemmer i arrangementer) as sepåmedlemmer
+(se medlemmers resultater) as seres
+
+styrer -> lagelag
+fjernemedlemmer <- styrer
+godkjenne <-- styrer
+styrer ---> se
+styrer --> searr
+styrer --> sepåmedlemmer
+styrer ---> seres
+
+
+@enduml
