@@ -1,0 +1,21 @@
+@startuml
+
+:Forbunds-leder: as leder
+
+(opprette arrangement) as oa
+(redigere arrangement info) as redigere
+(invitere lag til arrengement) as invitere
+(se tidiglere arrengementer) as setidl
+(se resultater fra arrengementer) as seres
+(godkjenne betaling fra utøvere) as godkjennebetaling
+(se påmeldte utøver + lag) as sepå
+(laste opp resultater) as lasteres
+
+
+
+
+
+
+
+
+@enduml
