@@ -11,5 +11,6 @@ Idrettsutøver -right-> (se resultater)
 Idrettsutøver -left-> (melde seg på/av arangementer)
 Idrettsutøver -left-> (betale påmeldings avgift)
 Idrettsutøver -right-> (se påmeldte utøvere)
+Idrettsutøver -> (Endre Navn/epost)
 
 @enduml
