@@ -1,0 +1,34 @@
+KravSpesifikasjon for Idretts-utøver i systemet.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	1) Lage BrukerKonto:
+	
+	1.1  Bruker skal få opp vindu om BrukerRegistrering ved klikk av Opprett Konto.
+	1.2  Bruker skal få opp feide påloggings skjema.
+	1.2.1 Bruker skal få varsling dersom feide pålogging ikke ble godkjent.
+	1.2.2 Bruker skal etter feide pålogging skrive inn Fornavn , etternavn, epost adresse og  telefon nummer.
+	1.2.3 Bruker skal motta en mail som inneholder en epost vertifisering link.
+	1.2.4 Når bruker trykker på link skal epostadressen sjekkes om den er i bruk.
+	1.2.5 Hvis epostadressen ikke er i bruk skal den bli godkjent i systemet.
+
+	2) Logge seg inn i brukerKonto:
+	
+	2.1 Bruker skal ved klikk av Logg inn knapp få opp Feide påloggings skjema.
+	2.2 Ved vellykket feide-innlogging skal bruker bli sendt videre til Bruker siden sin.
+	2.3 ved ikke vellykket feide-innlogging skal bruker få varsel om at noe gikk galt ved påloggingen.
+	
+	3) Endre Epost:
+	
+	3.1 Bruker skal ved klikk av "Endre epost Knapp" få opp skjema for å endre epost.
+	3.2 Hvis eposten allerede er i bruk skal bruker få varsel om at eposten er allerede i bruk.
+	3.3 hvis eposten ikke allerede er i bruk skal det bli sendt en vertifisering mail til gitt epostadresse.
+	3.3.1 Ved klikk av vertifisering linken i mailen skal eposten bli godkjent i systemet.
+	
+	4) Sende medlems-forespørsel til  Lag.
+	4.1 Bruker skal ved klikk av "Legg til  lag" knappen få opp skjema for å sende medlems-forespørsel. 
+	4.2 Bruker skal oppgi Navn og lagkode til ønsket lag og skrive en kort beskrivelse av forespørselen.
+	4.3 Ved klikk av "send forespørsel" knappen skal forespørselen bli sendt til Lagstyrer for laget.
+
+	5) Se lag brukeren er medlem i.
+	5.1) Bruker skal ved klikk av "mine lag" tab bli vist en liste over alle lag brukeren er medlem av.
+	  
