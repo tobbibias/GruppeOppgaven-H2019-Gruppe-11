@@ -8,8 +8,9 @@ Idrettsutøver --> (melde seg inn/ut i lag)
 Idrettsutøver --> (se andre medlemmer i lag)
 Idrettsutøver --> (se kommende arangementer)
 Idrettsutøver -right-> (se resultater)
-Idrettsutøver -left-> (se melde seg på/av arangementer)
+Idrettsutøver -left-> (melde seg på/av arangementer)
 Idrettsutøver -left-> (betale påmeldings avgift)
 Idrettsutøver -right-> (se påmeldte utøvere)
+Idrettsutøver -> (Endre Navn/epost)
 
 @enduml
