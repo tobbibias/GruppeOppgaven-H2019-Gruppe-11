@@ -1,20 +1,40 @@
 @startuml
-interface user{
-    -String username,password
+class user{
+    -String username,password,epost-adresse,fornavn,etternavn
+}
+interface organisasjon{
+    -String: organisasjons_navn
+    -Int: orginasjosjons_Nr
+    -String: epostadresse.
+    -String: post_sted
+    -String: Post_nr
+    -ArrayList<user>: ansatte
 }
 
 class idrettsutover{
-    - String fornavn,etternavn,epost
     -int: utover-kode
     -idrettsLag: lag
     -ArrayList<arrangement>: deltatteArrangement
     -ArrayList<arrangement>: paameldteArrangement
     -ArrayList<resultat>: resultater
 }
+
+
 class idrettsLag{
     -String: lagKode
+    -lagstyre: lagLeder
+    -forbund: forbund
+    -idrettsutover: lagKaptein
+    -ArrayList<idrettsutover>: medlemmer
+    -ArrayList<arrangement>: kommende_arrangementer
+    -ArrayList<arrangement>: deltatte_arrangementer
+    -ArrayList<resultat>: resultater
 }
-class lagstyre
+
+
+class lagstyrer{
+
+}
 class forbund
 class forbundsLeder
 class arrangement
@@ -25,12 +45,21 @@ class resultat
 idrettsutover -up-|> user
 idrettsutover -left-> idrettsLag
 idrettsutover -up-o resultat
-idrettsutover -left-o arrangement
+idrettsutover -right-o arrangement
 
+idrettsLag .up.|> organisasjon
 idrettsLag --o idrettsutover
+idrettsLag -right-o lagstyrer
+idrettsLag --> lagstyrer
+idrettsLag --o arrangement
+idrettsLag -left-> forbund
+idrettsLag -right-o resultat
 
 
-lagstyre -up-|> user
+lagstyrer -up-|> user
 forbundsLeder -up-|> user
 admin -up-|> user
+
+
+forbund .up.|> organisasjon
 @enduml

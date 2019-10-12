@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/IdrettsForbund.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/usecase/IdrettsForbund.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/LagStyrer.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/usecase/LagStyrer.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uml/idrettsutover.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/usecase/idrettsutover.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" beforeDir="false" afterPath="$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="622">
+              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -85,6 +81,11 @@
         <option value="UML Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>idrettsutover</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,12 +128,6 @@
               <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
               <item name="GruppeOppgaven-H2019-Gruppe-11" type="462c0819:PsiDirectoryNode" />
               <item name="uml" type="462c0819:PsiDirectoryNode" />
-              <item name="classeDiagram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="462c0819:PsiDirectoryNode" />
-              <item name="uml" type="462c0819:PsiDirectoryNode" />
               <item name="usecase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,7 +144,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570870430826" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570875709338" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -196,12 +191,12 @@
       <updated>1569915598982</updated>
       <workItem from="1569915600885" duration="5324000" />
       <workItem from="1570519468351" duration="1004000" />
-      <workItem from="1570867350144" duration="2535000" />
+      <workItem from="1570867350144" duration="5062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9427000" />
+    <option name="totallyTimeSpent" value="11954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -231,7 +226,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" x="334" y="73" width="771" height="777" id="PlantUML" order="4" visible="true" weight="0.56151646" />
+      <window_info anchor="right" x="334" y="73" width="771" height="777" id="PlantUML" order="4" visible="true" weight="0.4706724" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -283,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="622">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
         </state>
       </provider>
     </entry>
