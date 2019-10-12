@@ -1,0 +1,36 @@
+@startuml
+interface user{
+    -String username,password
+}
+
+class idrettsutover{
+    - String fornavn,etternavn,epost
+    -int: utover-kode
+    -idrettsLag: lag
+    -ArrayList<arrangement>: deltatteArrangement
+    -ArrayList<arrangement>: paameldteArrangement
+    -ArrayList<resultat>: resultater
+}
+class idrettsLag{
+    -String: lagKode
+}
+class lagstyre
+class forbund
+class forbundsLeder
+class arrangement
+class admin
+class resultat
+
+
+idrettsutover -up-|> user
+idrettsutover -left-> idrettsLag
+idrettsutover -up-o resultat
+idrettsutover -left-o arrangement
+
+idrettsLag --o idrettsutover
+
+
+lagstyre -up-|> user
+forbundsLeder -up-|> user
+admin -up-|> user
+@enduml
