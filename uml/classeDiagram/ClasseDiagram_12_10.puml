@@ -1,6 +1,7 @@
 @startuml
 class user{
     -String username,password,epost-adresse,fornavn,etternavn
+    -int: user-kode
 }
 interface organisasjon{
     -String: organisasjons_navn
@@ -12,7 +13,6 @@ interface organisasjon{
 }
 
 class idrettsutover{
-    -int: utover-kode
     -idrettsLag: lag
     -ArrayList<arrangement>: deltatteArrangement
     -ArrayList<arrangement>: paameldteArrangement
@@ -33,10 +33,18 @@ class idrettsLag{
 
 
 class lagstyrer{
+     -idrettsLag: lag
+     -String: StillingsBeskrivelse
 
 }
-class forbund
-class forbundsLeder
+
+
+class forbund{
+    -forbundsAnnsatt: forbundsLeder
+    -ArrayList<forbundsAnnsatt>: ansatte
+}
+class forbundsAnnsatt{
+}
 class arrangement
 class admin
 class resultat
@@ -50,15 +58,21 @@ idrettsutover -right-o arrangement
 idrettsLag .up.|> organisasjon
 idrettsLag --o idrettsutover
 idrettsLag -right-o lagstyrer
-idrettsLag --> lagstyrer
+idrettsLag -right-> lagstyrer
 idrettsLag --o arrangement
 idrettsLag -left-> forbund
 idrettsLag -right-o resultat
 
 
 lagstyrer -up-|> user
-forbundsLeder -up-|> user
-admin -up-|> user
+lagstyrer --> idrettsLag
+
+
+forbund --o forbundsAnnsatt
+forbund --> forbundsAnnsatt
+
+forbundsAnnsatt -up-|> user
+admin -left-|> user
 
 
 forbund .up.|> organisasjon
