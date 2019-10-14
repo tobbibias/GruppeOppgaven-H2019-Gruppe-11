@@ -29,6 +29,7 @@ class idrettsLag{
     -ArrayList<arrangement>: kommende_arrangementer
     -ArrayList<arrangement>: deltatte_arrangementer
     -ArrayList<resultat>: resultater
+    +void updateTeamList()
 }
 
 
@@ -41,13 +42,31 @@ class lagstyrer{
 
 class forbund{
     -forbundsAnnsatt: forbundsLeder
-    -ArrayList<forbundsAnnsatt>: ansatte
+    -ArrayList<lag>: lag_i_Forbund
+    -ArrayList<arrangement>:kommende_arrangementer
+    -ArrayList<arrangement>: tidligere_arrangementer
 }
+
 class forbundsAnnsatt{
+    -Forbund: forbund
+    -String: stilling_beskrivele
 }
-class arrangement
-class admin
-class resultat
+
+class arrangement{
+    -Forbund: Host
+    -String: location,name,description
+    -date: date
+}
+
+class admin{
+
+}
+class resultat{
+    -ArrayList<idrettsutover>: participants
+    -arrangement: event
+    -ArrayList<Int>: score
+    +void calculateScore()
+}
 
 
 idrettsutover -up-|> user
@@ -65,7 +84,7 @@ idrettsLag -right-o resultat
 
 
 lagstyrer -up-|> user
-lagstyrer --> idrettsLag
+lagstyrer -right-> idrettsLag
 
 
 forbund --o forbundsAnnsatt
