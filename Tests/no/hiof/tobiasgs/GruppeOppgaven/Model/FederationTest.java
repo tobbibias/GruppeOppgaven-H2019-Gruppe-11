@@ -25,7 +25,12 @@ class FederationTest {
    @Test
     void TeamsInFederation(){
        Federation fed = new Federation("Norges fotball forbund",222,"norge@fotball.no","oslo","1920");
-       SportsClub bomIl = new SportsClub();
+       SportsClub bomIl = new SportsClub("11",new Teamleader("HarryHole", "9a19","Harry",
+               "Hole","Harry@hole.com","Team Leader" ),new Federation("BFF", 222,"bom@hjelp.no","Rygge","1521"),"Nils");
+       assertTrue(fed.getClubList()[0].getteamCode() == "11");
+       assertTrue(fed.getClubList()[0].getTeamLeader().getUsername() == "HarryHole");
+       assertTrue(fed.getClubList()[0].getFederationName() == "BFF");
+       assertTrue(fed.getClubList()[0].getTeamCaptain()=="Nils");
 
     }
 
