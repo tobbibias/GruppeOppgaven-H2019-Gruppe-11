@@ -1,5 +1,6 @@
 package no.hiof.tobiasgs.GruppeOppgaven.Model;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Array;
@@ -9,25 +10,23 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FederationTest {
+
+
     @Test
-    void FederationEmployeeTest(){
-        String FerderationEmployee = "Forbundsleder";
-        assertTrue(FerderationEmployee =="Forbundsleder");
+    void constructorTest(){
+        Federation fed = new Federation("Norges fotball forbund",222,"norge@fotball.no","oslo","1920");
+        assertTrue(fed.getFederationName() == "Norges fotball forbund");
+        assertTrue(fed.getFederationNumber() == 222);
+        assertTrue(fed.getFederationEmail() == "norge@fotball.no");
+        assertTrue(fed.getFederationPostal() == "oslo");
+        assertTrue(fed.getFederationPostalCode() == "1920");
     }
 
    @Test
     void TeamsInFederation(){
-        ArrayList<String> teamsInFederation = new ArrayList<>();
+       Federation fed = new Federation("Norges fotball forbund",222,"norge@fotball.no","oslo","1920");
+       SportsClub bomIl = new SportsClub();
 
-        assertEquals(teamsInFederation.size(), 0);
-        teamsInFederation.add("Liverpool");
-        assertEquals(teamsInFederation.size(),1);
-        teamsInFederation.add("Real Madrid");
-        teamsInFederation.add("Moss");
-        teamsInFederation.add("Halden");
-        assertEquals(teamsInFederation.size(),4);
-        teamsInFederation.remove("Real Madrid");
-        assertEquals(teamsInFederation.size(),3);
     }
 
     @Test

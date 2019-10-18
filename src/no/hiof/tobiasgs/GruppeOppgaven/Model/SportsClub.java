@@ -3,7 +3,7 @@ package no.hiof.tobiasgs.GruppeOppgaven.Model;
 import java.util.ArrayList;
 
 public class SportsClub {
-  /*  private String teamCode;
+    private String teamCode;
     private TeamLeader manager;
     private Federation federation;
     private Athlete teamCaptain;
@@ -34,6 +34,7 @@ public class SportsClub {
         return teamCaptain;
     }
 
-*/
-
+    public ArrayList<Events> getParticipatedEvents() {
+        return participatedEvents;
+    }
 }
