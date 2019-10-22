@@ -48,7 +48,7 @@ public class User {
         }else return 0;
     };
 
-  /*  @Override
+    @Override
     public String toString() {
         return "User{" +
                 "firstName='" + firstName + '\'' +
@@ -56,10 +56,7 @@ public class User {
                 ", email='" + email + '\'' +
                 ", userCode=" + userCode +
                 '}';
-    }*/
-
-    @Override
-    public String toString() {
-        return this.username + "  " + this.password;
     }
+
+
 }
