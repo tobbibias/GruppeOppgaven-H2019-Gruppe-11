@@ -3,7 +3,7 @@ class user{
     -String username,password,epost-adresse,fornavn,etternavn
     -int: user-kode
 }
-interface organisasjon{
+Class organisasjon{
     -String: organisasjons_navn
     -Int: orginasjosjons_Nr
     -String: epostadresse.
@@ -74,7 +74,7 @@ idrettsutover -left-> idrettsLag
 idrettsutover -up-o resultat
 idrettsutover -right-o arrangement
 
-idrettsLag .up.|> organisasjon
+idrettsLag -up-|> organisasjon
 idrettsLag --o idrettsutover
 idrettsLag -right-o lagstyrer
 idrettsLag -right-> lagstyrer
@@ -94,5 +94,5 @@ forbundsAnnsatt -up-|> user
 admin -left-|> user
 
 
-forbund .up.|> organisasjon
+forbund -up--|> organisasjon
 @enduml
