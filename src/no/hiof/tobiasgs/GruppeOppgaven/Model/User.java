@@ -32,14 +32,23 @@ public class User {
         this.userCode = 0000;
     };
 
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
     // login function
     public int login(String u, String p){
-        if (u == this.username && p == this.password){
+        if (u.equals(u) && p.equals(p)){
             return 1;
-        }return 0;
+        }else return 0;
     };
 
-    @Override
+  /*  @Override
     public String toString() {
         return "User{" +
                 "firstName='" + firstName + '\'' +
@@ -47,5 +56,10 @@ public class User {
                 ", email='" + email + '\'' +
                 ", userCode=" + userCode +
                 '}';
+    }*/
+
+    @Override
+    public String toString() {
+        return this.username + "  " + this.password;
     }
 }

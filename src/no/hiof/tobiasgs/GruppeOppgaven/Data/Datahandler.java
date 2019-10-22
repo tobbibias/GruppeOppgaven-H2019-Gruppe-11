@@ -38,10 +38,11 @@ public class Datahandler {
             while ((line = bufferedReader.readLine()) != null){
                 jsonLines.append(line);
             }
-            // converts the stringbuiler jsonlines list to an array of countries.
+            // converts the stringbuiler jsonlines list to an array of users.
             User[] userArray = gson.fromJson(jsonLines.toString(),User[].class);
 
             usersInJson.addAll(Arrays.asList(userArray));
+
         }catch (IOException ioexc){
             System.out.println(ioexc.getMessage());
         }
@@ -54,15 +55,17 @@ public class Datahandler {
 
 
     public static void addUser(String firstname,String surname, String email,String username, String password ){
+
     }
-    public static User getUser(String username, String password){
 
-        for (User user:getUserArrayList()
-             ) {
+    public  static User getUser(String username, String password){
 
-            if(user.login(username,password) == 1){
+        for (User user:getUserArrayList()) {
+
+            if (user.login(username, password) == 1) {
                 return user;
             }
+
         }
         return null;
     }
