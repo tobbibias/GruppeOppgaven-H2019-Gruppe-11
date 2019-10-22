@@ -2,7 +2,7 @@ package no.hiof.tobiasgs.GruppeOppgaven.Model;
 
 import java.util.ArrayList;
 
-public class Federation implements Organization{
+public class Federation extends Organization{
 
 
 
