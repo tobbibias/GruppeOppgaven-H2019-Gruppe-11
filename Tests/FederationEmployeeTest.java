@@ -8,6 +8,7 @@ public class FederationEmployeeTest {
     void fedEmployeeTest(){
         FederationEmployee fedEm = new FederationEmployee(new Federation("Norges fotball forbund",222,"norge@fotball.no","oslo","1920"),"Forbundsleder");
         assertTrue(fedEm.getFederationName()=="Norges forball forbund");
+        assertTrue(fedEm.getJobDescription() =="Fobundsleder");
 
     }
 }
