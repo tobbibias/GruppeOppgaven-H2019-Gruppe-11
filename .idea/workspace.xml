@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userData.json" beforeDir="false" afterPath="$PROJECT_DIR$/userData.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="518">
               <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,15 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="483">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#404#410#0" expanded="true" />
+                <element signature="method#getUserArrayList#0;class#Datahandler#0" />
+                <element signature="method#collectUserData#0;class#Datahandler#0" />
                 <element signature="e#1097#1103#0" expanded="true" />
+                <element signature="method#addUser#0;class#Datahandler#0" />
+                <element signature="method#getUser#0;class#Datahandler#0" />
               </folding>
             </state>
           </provider>
@@ -83,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+            <state relative-caret-position="252">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#819#820#0" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
@@ -149,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" />
         <option value="$PROJECT_DIR$/userData.json" />
-        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" />
         <option value="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" />
       </list>
     </option>
   </component>
@@ -223,7 +218,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572339253954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572339978992" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -358,7 +353,7 @@
       <workItem from="1570519468351" duration="1004000" />
       <workItem from="1570867350144" duration="5872000" />
       <workItem from="1571043709492" duration="1696000" />
-      <workItem from="1571650945005" duration="13348000" />
+      <workItem from="1571650945005" duration="13931000" />
     </task>
     <servers />
   </component>
@@ -395,7 +390,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25588000" />
+    <option name="totallyTimeSpent" value="26171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -411,7 +406,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44768855" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.064476885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39902675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,7 +439,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44768855" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.064476885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39902675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,10 +568,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/userData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+        <state relative-caret-position="252">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#819#820#0" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
@@ -586,31 +598,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="483">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#404#410#0" expanded="true" />
+            <element signature="method#getUserArrayList#0;class#Datahandler#0" />
+            <element signature="method#collectUserData#0;class#Datahandler#0" />
             <element signature="e#1097#1103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#addUser#0;class#Datahandler#0" />
+            <element signature="method#getUser#0;class#Datahandler#0" />
           </folding>
         </state>
       </provider>
