@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Athlete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FUSProjectUsageTrigger">
     <session id="958593997">
       <usages-collector id="statistics.file.extensions.edit">
@@ -177,6 +183,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -201,10 +209,15 @@
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" root0="SKIP_INSPECTION" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClubTest.java" root0="SKIP_INSPECTION" />
+=======
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" root0="SKIP_INSPECTION" />
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Teamleader.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" root0="SKIP_INSPECTION" />
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
@@ -221,6 +234,8 @@
         <option value="$PROJECT_DIR$/Tests/FederationEmployeeTest.java" />
       </list>
     </option>
+=======
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
@@ -230,6 +245,7 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -291,6 +307,8 @@
       <pane id="Scope" />
     </panes>
   </component>
+=======
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
   <component name="PropertiesComponent">
     <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -299,11 +317,19 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571959033641" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571751823864" />
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+<<<<<<< HEAD
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -447,6 +473,7 @@
       <workItem from="1570867350144" duration="5872000" />
       <workItem from="1571043709492" duration="1696000" />
       <workItem from="1571123414003" duration="13409000" />
+<<<<<<< HEAD
     </task>
     <servers />
   </component>
@@ -491,6 +518,13 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
   </component>
+=======
+      <workItem from="1571822022832" duration="698000" />
+      <workItem from="1572337907728" duration="106000" />
+    </task>
+    <servers />
+  </component>
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -512,6 +546,7 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -660,6 +695,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of b2b2ab8... Merge branch 'Tobias_sitt_hjørne'
   </component>
   <component name="masterDetails">
     <states>
