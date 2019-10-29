@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 public class SportsClub {
     private String teamCode;
-    private TeamLeader manager;
+    private Teamleader manager;
     private Federation federation;
     private Athlete teamCaptain;
     private ArrayList<Athlete> members = new ArrayList<Athlete>();
     private ArrayList<Events> upCommingEvents = new ArrayList<Events>();
     private ArrayList<Events> participatedEvents = new ArrayList<Events>();
 
-    public SportsClub(String teamCode, TeamLeader manager, Federation federation, Athlete teamCaptain) {
+    public SportsClub(String teamCode, Teamleader manager, Federation federation, Athlete teamCaptain) {
         this.teamCode = teamCode;
         this.manager = manager;
         this.federation = federation;
@@ -22,7 +22,7 @@ public class SportsClub {
         return teamCode;
     }
 
-    public TeamLeader getManager() {
+    public Teamleader getManager() {
         return manager;
     }
 
