@@ -12,7 +12,7 @@ class UserTest {
         assertTrue(user.getFirstName()=="bob");
         assertTrue(user.getSurName()=="smith");
         assertTrue(user.getEmail()=="bob@smith.com");
-
+        assertTrue(user.getUserCode()>0);
 
     }
 
