@@ -69,10 +69,22 @@ class result{
 }
 
 
+<<<<<<< HEAD
 athlete -up-|> user
 athlete -left-> sportsclub
 athlete -up-o result
 athlete -right-o Events
+=======
+
+
+
+
+
+idrettsutover -up-|> user
+idrettsutover -left-> idrettsLag
+idrettsutover -up-o resultat
+idrettsutover -right-o arrangement
+>>>>>>> Tobias_sitt_hjørne
 
 sportsclub -up-|> organization
 sportsclub --o athlete
