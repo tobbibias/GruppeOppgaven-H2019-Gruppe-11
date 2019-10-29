@@ -4,9 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.User;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -54,12 +52,42 @@ public class Datahandler {
 
 
 
-    public static void addUser(String firstname,String surname, String email,String username, String password ){
+    public static void addUser(User user){
+        // first we check if the user is already in the list.
+        int user_count = 0;
+        for (User user1: collectUserData("userData.json")
+             ) {
+            if (user1.getFirstName().equals(user.getFirstName())){
+                user_count++;
+            }
+        }
+        if (user_count >= 1){
+            System.out.println("user is allready in register.");
+        }else{
+            // Oppretter og instansierer et gsonbuilder objekt
+            GsonBuilder gsonBuilder = new GsonBuilder().setPrettyPrinting();
+            // Oppretter og instansierer et gson-objekt basert på de parameterne vi har laget builderen med
+            Gson gson = gsonBuilder.create();
 
+
+            getUserArrayList().add(user);
+            // Konverterer hele listen til JSON
+            String jsonTextListe = gson.toJson(getUserArrayList());
+            // Skriver ut JSON-en til konsollen
+            System.out.println("JSON liste: " + jsonTextListe);
+
+            try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("userData.json"))) {
+                bufferedWriter.write(jsonTextListe);
+            } catch (IOException ioexc) {
+                System.out.println(ioexc.getMessage());
+            }
+        }
     }
 
-    public  static User getUser(String username, String password){
 
+
+    public  static User getUser(String username, String password){
+        collectUserData("userData.json");
         for (User user:getUserArrayList()) {
 
             if (user.login(username, password) == 1) {

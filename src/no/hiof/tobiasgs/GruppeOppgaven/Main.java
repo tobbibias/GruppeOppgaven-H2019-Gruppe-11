@@ -8,6 +8,10 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
+        User jhon = new User("jhonnyboy","shining","Jhon","Smith","here@jhonny.com");
+        Datahandler d = new Datahandler();
+        d.addUser(jhon);
+        System.out.println(d.getUser("jhonnyboy","shining"));
 
 
 

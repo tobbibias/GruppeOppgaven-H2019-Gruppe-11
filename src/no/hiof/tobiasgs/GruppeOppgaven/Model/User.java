@@ -43,7 +43,7 @@ public class User {
 
     // login function
     public int login(String u, String p){
-        if (u.equals(u) && p.equals(p)){
+        if (u.equals(username) && p.equals(password)){
             return 1;
         }else return 0;
     };

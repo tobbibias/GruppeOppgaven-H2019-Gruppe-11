@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userData.json" beforeDir="false" afterPath="$PROJECT_DIR$/userData.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="273">
+              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,17 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userData.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="247">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="630">
+              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,11 +57,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+            <state>
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#404#410#0" expanded="true" />
+                <element signature="e#1097#1103#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="168">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+            <state relative-caret-position="270">
+              <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
               <folding>
                 <element signature="e#819#820#0" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
@@ -138,11 +146,11 @@
         <option value="$PROJECT_DIR$/../OOP/Oblig5_OOP_TobiasSÃ¸yland2019-1/src/no/hiof/tobiasgs/Oblig5_OOP_TobiasSÃ¸yland2019/Data/Datahandler.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/userData.json" />
         <option value="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" />
-        <option value="$PROJECT_DIR$/userData.json" />
         <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" />
-        <option value="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" />
         <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" />
+        <option value="$PROJECT_DIR$/userData.json" />
+        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" />
+        <option value="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" />
       </list>
     </option>
   </component>
@@ -182,20 +190,6 @@
             <path>
               <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
               <item name="GruppeOppgaven-H2019-Gruppe-11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GruppeOppgaven" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GruppeOppgaven" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -229,7 +223,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571733146008" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572339253954" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -265,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatahandlerTest.testGetUser">
+  <component name="RunManager" selected="JUnit.DatahandlerTest.testExsistingUser">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Main" />
       <module name="GruppeOppgaven-H2019-Gruppe-11" />
@@ -287,6 +281,22 @@
       <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
       <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.DatahandlerTest" />
       <option name="METHOD_NAME" value="testAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatahandlerTest.testExsistingUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GruppeOppgaven-H2019-Gruppe-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
+      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.DatahandlerTest" />
+      <option name="METHOD_NAME" value="testExsistingUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -324,29 +334,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testUserClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GruppeOppgaven-H2019-Gruppe-11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model" />
-      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model.UserTest" />
-      <option name="METHOD_NAME" value="testUserClass" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatahandlerTest.testGetUser" />
-        <item itemvalue="JUnit.UserTest.testLogin" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DatahandlerTest.testExsistingUser" />
         <item itemvalue="JUnit.DatahandlerTest.testAddUser" />
-        <item itemvalue="JUnit.UserTest.testUserClass" />
+        <item itemvalue="JUnit.DatahandlerTest.testGetUser" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.UserTest.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -364,44 +358,44 @@
       <workItem from="1570519468351" duration="1004000" />
       <workItem from="1570867350144" duration="5872000" />
       <workItem from="1571043709492" duration="1696000" />
-      <workItem from="1571650945005" duration="7503000" />
+      <workItem from="1571650945005" duration="13348000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatahandlerTest_testGetUser - 2019.10.22 at 09h 41m 21s.xml">
-      <configuration name="DatahandlerTest.testGetUser" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 38m 27s.xml">
+      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatahandlerTest_testGetUser - 2019.10.22 at 09h 42m 35s.xml">
-      <configuration name="DatahandlerTest.testGetUser" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 40m 07s.xml">
+      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testLogin - 2019.10.22 at 09h 43m 40s.xml">
-      <configuration name="UserTest.testLogin" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 40m 31s.xml">
+      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatahandlerTest_testGetUser - 2019.10.22 at 09h 43m 55s.xml">
-      <configuration name="DatahandlerTest.testGetUser" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 45m 03s.xml">
+      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatahandlerTest_testGetUser - 2019.10.22 at 09h 46m 26s.xml">
-      <configuration name="DatahandlerTest.testGetUser" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 45m 14s.xml">
+      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatahandlerTest_testGetUser - 2019.10.22 at 09h 47m 12s.xml">
-      <configuration name="DatahandlerTest.testGetUser" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 50m 08s.xml">
+      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatahandlerTest_testGetUser - 2019.10.22 at 09h 47m 57s.xml">
-      <configuration name="DatahandlerTest.testGetUser" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 50m 32s.xml">
+      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserTest_testLogin - 2019.10.22 at 09h 48m 23s.xml">
-      <configuration name="UserTest.testLogin" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 51m 15s.xml">
+      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatahandlerTest_testGetUser - 2019.10.22 at 09h 49m 06s.xml">
-      <configuration name="DatahandlerTest.testGetUser" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 52m 24s.xml">
+      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DatahandlerTest_testGetUser - 2019.10.22 at 10h 26m 07s.xml">
-      <configuration name="DatahandlerTest.testGetUser" configurationId="JUnit" />
+    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 53m 54s.xml">
+      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19743000" />
+    <option name="totallyTimeSpent" value="25588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -417,12 +411,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3138686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44768855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39902675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296837" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -440,7 +434,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14377682" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14377682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -450,12 +444,12 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3138686" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44768855" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39902675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3296837" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -559,28 +553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="273">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -589,18 +565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="168">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -609,13 +575,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+        <state relative-caret-position="270">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
           <folding>
             <element signature="e#819#820#0" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
             <element signature="e#885#886#0" expanded="true" />
             <element signature="e#916#917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#410#0" expanded="true" />
+            <element signature="e#1097#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
