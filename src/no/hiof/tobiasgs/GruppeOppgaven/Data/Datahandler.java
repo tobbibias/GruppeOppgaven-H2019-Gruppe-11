@@ -10,6 +10,7 @@ import java.util.Arrays;
 
 public class Datahandler {
 
+
     private final static ArrayList<User> USER_ARRAY_LIST = new ArrayList<User>();
 
     public static ArrayList<User> getUserArrayList(){
@@ -18,7 +19,6 @@ public class Datahandler {
         }
         return USER_ARRAY_LIST;
     }
-
 
     public static ArrayList<User> collectUserData(String filepath){
 
@@ -48,9 +48,6 @@ public class Datahandler {
 
         return usersInJson;
     }
-
-
-
 
     public static void addUser(User user){
         // first we check if the user is already in the list.
@@ -83,8 +80,6 @@ public class Datahandler {
             }
         }
     }
-
-
 
     public  static User getUser(String username, String password){
         collectUserData("userData.json");
