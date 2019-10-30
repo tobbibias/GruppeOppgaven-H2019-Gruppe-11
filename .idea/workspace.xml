@@ -329,6 +329,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.DatahandlerTest.testAddUser" />
+      <item itemvalue="JUnit.DatahandlerTest.testExsistingUser" />
+      <item itemvalue="JUnit.DatahandlerTest.testGetUser" />
+      <item itemvalue="JUnit.UserTest.testLogin" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DatahandlerTest.testExsistingUser" />
