@@ -3,7 +3,7 @@ class user{
     -String username,password,epost-adresse,fornavn,etternavn
     -int: user-kode
 }
-interface organisasjon{
+Class organization{
     -String: organisasjons_navn
     -Int: orginasjosjons_Nr
     -String: epostadresse.
@@ -12,7 +12,7 @@ interface organisasjon{
     -ArrayList<user>: ansatte
 }
 
-class idrettsutover{
+class athlete{
     -idrettsLag: lag
     -ArrayList<arrangement>: deltatteArrangement
     -ArrayList<arrangement>: paameldteArrangement
@@ -20,7 +20,7 @@ class idrettsutover{
 }
 
 
-class idrettsLag{
+class sportsclub{
     -String: lagKode
     -lagstyre: lagLeder
     -forbund: forbund
@@ -33,26 +33,26 @@ class idrettsLag{
 }
 
 
-class lagstyrer{
+class teamleader{
      -idrettsLag: lag
      -String: StillingsBeskrivelse
 
 }
 
 
-class forbund{
+class federation{
     -forbundsAnnsatt: forbundsLeder
     -ArrayList<lag>: lag_i_Forbund
     -ArrayList<arrangement>:kommende_arrangementer
     -ArrayList<arrangement>: tidligere_arrangementer
 }
 
-class forbundsAnnsatt{
-    -Forbund: forbund
+class federationEmployee{
+    -Federation: federation
     -String: stilling_beskrivele
 }
 
-class arrangement{
+class Events{
     -Forbund: Host
     -String: location,name,description
     -date: date
@@ -61,43 +61,38 @@ class arrangement{
 class admin{
 
 }
-class resultat{
-    -ArrayList<idrettsutover>: participants
+class result{
+    -ArrayList<athlete>: participants
     -arrangement: event
     -ArrayList<Int>: score
     +void calculateScore()
 }
 
 
+athlete -up-|> user
+athlete -left-> sportsclub
+athlete -up-o result
+athlete -right-o Events
+
+sportsclub -up-|> organization
+sportsclub --o athlete
+sportsclub -right-o teamleader
+sportsclub -right-> teamleader
+sportsclub --o Events
+sportsclub -left-> federation
+sportsclub -right-o result
 
 
+teamleader -up-|> user
+teamleader -right-> sportsclub
 
 
+federation --o federationEmployee
+federation --> federationEmployee
 
-idrettsutover -up-|> user
-idrettsutover -left-> idrettsLag
-idrettsutover -up-o resultat
-idrettsutover -right-o arrangement
-
-idrettsLag .up.|> organisasjon
-idrettsLag --o idrettsutover
-idrettsLag -right-o lagstyrer
-idrettsLag -right-> lagstyrer
-idrettsLag --o arrangement
-idrettsLag -left-> forbund
-idrettsLag -right-o resultat
-
-
-lagstyrer -up-|> user
-lagstyrer -right-> idrettsLag
-
-
-forbund --o forbundsAnnsatt
-forbund --> forbundsAnnsatt
-
-forbundsAnnsatt -up-|> user
+federationEmployee -up-|> user
 admin -left-|> user
 
 
-forbund .up.|> organisasjon
+federation -up-|> organization
 @enduml

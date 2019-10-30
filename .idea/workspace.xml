@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Athlete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/FederationEmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FederationEmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/EventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/EventTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/GruppeOppgaven-H2019-Gruppe-11/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,51 +23,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java">
+        <entry file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="257">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userData.json">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="378">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#246#252#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+                <element signature="e#1126#1127#0" expanded="true" />
+                <element signature="e#1164#1165#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
+                <element signature="e#1476#1477#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            <state relative-caret-position="420">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#404#410#0" expanded="true" />
-                <element signature="method#getUserArrayList#0;class#Datahandler#0" />
-                <element signature="method#collectUserData#0;class#Datahandler#0" />
-                <element signature="e#1097#1103#0" expanded="true" />
-                <element signature="method#addUser#0;class#Datahandler#0" />
-                <element signature="method#getUser#0;class#Datahandler#0" />
+                <element signature="method#User#0;class#User#0" />
+                <element signature="method#login#0;class#User#0" />
               </folding>
             </state>
           </provider>
@@ -66,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="142">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,27 +92,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java">
+        <entry file="file://$PROJECT_DIR$/Tests/FederationEmployeeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/EventTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
+                <element signature="e#239#251#0" expanded="true" />
+                <element signature="e#316#324#0" expanded="true" />
+                <element signature="e#386#394#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1111#1112#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1238#1239#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1323#1324#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1438#1439#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../OOP/Oblig5_OOP_TobiasSÃ¸yland2019-1/src/no/hiof/tobiasgs/Oblig5_OOP_TobiasSÃ¸yland2019/Data/Datahandler.java">
+        <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="126">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#286#295#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,51 +174,46 @@
       <list>
         <option value="UML Use Case" />
         <option value="UML Class" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>idrettsutover</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/FederationEmployeeTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Teamleader.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClubTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/EventTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/userData.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Tests/UserTest.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Athlete.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organisation.java" />
         <option value="$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" />
-        <option value="$PROJECT_DIR$/../OOP/Oblig5_OOP_TobiasSÃ¸yland2019-1/src/no/hiof/tobiasgs/Oblig5_OOP_TobiasSÃ¸yland2019/Data/Datahandler.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/userData.json" />
-        <option value="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" />
-        <option value="$PROJECT_DIR$/userData.json" />
-        <option value="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" />
-        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java" />
+        <option value="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" />
+        <option value="$PROJECT_DIR$/Tests/FederationEmployeeTest.java" />
+        <option value="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/EventTest.java" />
+        <option value="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
-  </component>
-  <component name="ProjectId" id="1SBj6KoNTZf85HZu030yRxrHrj8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -184,24 +244,6 @@
             </path>
             <path>
               <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="GruppeOppgaven" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="GruppeOppgaven" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GruppeOppgaven-H2019-Gruppe-11" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -218,29 +260,16 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572339980724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572428941681" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="no.hiof.tobiasgs.GruppeOppgaven.Data" />
-      <recent name="no.hiof.tobiasgs.GruppeOppgaven.Model" />
-      <recent name="no.hiof.tobiasgs.GruppeOppgaven.Tests" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/uml/usecase" />
-      <recent name="$PROJECT_DIR$/uml" />
-    </key>
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -254,66 +283,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DatahandlerTest.testExsistingUser">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Main" />
+  <component name="RunManager" selected="JUnit.FederationTest.constructorTest">
+    <configuration name="FederationEmployeeTest.fedEmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GruppeOppgaven-H2019-Gruppe-11" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DatahandlerTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GruppeOppgaven-H2019-Gruppe-11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
-      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.DatahandlerTest" />
-      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FederationEmployeeTest" />
+      <option name="METHOD_NAME" value="fedEmployeeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatahandlerTest.testExsistingUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FederationTest.UpComingEvents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GruppeOppgaven-H2019-Gruppe-11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Data.*" />
+          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
-      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.DatahandlerTest" />
-      <option name="METHOD_NAME" value="testExsistingUser" />
+      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model" />
+      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model.FederationTest" />
+      <option name="METHOD_NAME" value="UpComingEvents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatahandlerTest.testGetUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FederationTest.constructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GruppeOppgaven-H2019-Gruppe-11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Data.*" />
+          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
-      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.DatahandlerTest" />
-      <option name="METHOD_NAME" value="testGetUser" />
+      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model" />
+      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model.FederationTest" />
+      <option name="METHOD_NAME" value="constructorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SportsClubTest.canFillAList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GruppeOppgaven-H2019-Gruppe-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model" />
+      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model.SportsClubTest" />
+      <option name="METHOD_NAME" value="canFillAList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testUserClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GruppeOppgaven-H2019-Gruppe-11" />
       <extension name="coverage">
         <pattern>
@@ -323,26 +352,34 @@
       </extension>
       <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model" />
       <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Model.UserTest" />
-      <option name="METHOD_NAME" value="testLogin" />
+      <option name="METHOD_NAME" value="testUserClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.DatahandlerTest.testAddUser" />
       <item itemvalue="JUnit.DatahandlerTest.testExsistingUser" />
       <item itemvalue="JUnit.DatahandlerTest.testGetUser" />
       <item itemvalue="JUnit.UserTest.testLogin" />
+=======
+      <item itemvalue="JUnit.SportsClubTest.canFillAList" />
+      <item itemvalue="JUnit.FederationTest.UpComingEvents" />
+      <item itemvalue="JUnit.UserTest.testUserClass" />
+      <item itemvalue="JUnit.FederationEmployeeTest.fedEmployeeTest" />
+      <item itemvalue="JUnit.FederationTest.constructorTest" />
+>>>>>>> master
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DatahandlerTest.testExsistingUser" />
-        <item itemvalue="JUnit.DatahandlerTest.testAddUser" />
-        <item itemvalue="JUnit.DatahandlerTest.testGetUser" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.UserTest.testLogin" />
+        <item itemvalue="JUnit.FederationTest.constructorTest" />
+        <item itemvalue="JUnit.FederationEmployeeTest.fedEmployeeTest" />
+        <item itemvalue="JUnit.UserTest.testUserClass" />
+        <item itemvalue="JUnit.FederationTest.UpComingEvents" />
+        <item itemvalue="JUnit.SportsClubTest.canFillAList" />
       </list>
     </recent_temporary>
   </component>
@@ -360,50 +397,25 @@
       <workItem from="1570519468351" duration="1004000" />
       <workItem from="1570867350144" duration="5872000" />
       <workItem from="1571043709492" duration="1696000" />
-      <workItem from="1571650945005" duration="14017000" />
+      <workItem from="1571123414003" duration="13409000" />
+      <workItem from="1571822022832" duration="698000" />
+      <workItem from="1572337907728" duration="106000" />
+      <workItem from="1572344886659" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 38m 27s.xml">
-      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 40m 07s.xml">
-      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 40m 31s.xml">
-      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 45m 03s.xml">
-      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testAddUser - 2019.10.29 at 09h 45m 14s.xml">
-      <configuration name="DatahandlerTest.testAddUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 50m 08s.xml">
-      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 50m 32s.xml">
-      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 51m 15s.xml">
-      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 52m 24s.xml">
-      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DatahandlerTest_testExsistingUser - 2019.10.29 at 09h 53m 54s.xml">
-      <configuration name="DatahandlerTest.testExsistingUser" configurationId="JUnit" />
+    <history-entry file="FederationTest_constructorTest - 2019.10.30 at 10h 38m 07s.xml">
+      <configuration name="FederationTest.constructorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26257000" />
+    <option name="totallyTimeSpent" value="4801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14377682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14377682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,7 +425,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.064476885" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23844282" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39902675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -423,12 +435,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3296837" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.24817519" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" x="334" y="73" width="771" height="777" id="PlantUML" order="4" weight="0.28040057" />
+      <window_info anchor="right" x="334" y="73" width="771" height="777" id="PlantUML" order="4" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
@@ -446,7 +458,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.064476885" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1970803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39902675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,16 +473,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" x="334" y="73" width="771" height="777" id="PlantUML" order="4" weight="0.28040057" />
+      <window_info anchor="right" x="334" y="73" width="771" height="777" id="PlantUML" order="4" weight="0.35693848" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout-to-restore>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -484,6 +493,7 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -538,37 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../OOP/Oblig5_OOP_TobiasSÃ¸yland2019-1/src/no/hiof/tobiasgs/Oblig5_OOP_TobiasSÃ¸yland2019/Data/Datahandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -582,33 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#404#410#0" expanded="true" />
@@ -621,80 +581,175 @@
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>GruppeOppgaven-H2019-Gruppe-11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>plantuml</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4557">
+          <caret line="228" column="11" selection-start-line="228" selection-start-column="11" selection-end-line="228" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Athlete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#286#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organisation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#246#252#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#239#251#0" expanded="true" />
+            <element signature="e#316#324#0" expanded="true" />
+            <element signature="e#386#394#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/EventTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/FederationEmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="method#User#0;class#User#0" />
+            <element signature="method#login#0;class#User#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
