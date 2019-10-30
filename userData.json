@@ -1,0 +1,26 @@
+[
+  {
+    "username": "bobby",
+    "password": "booby",
+    "firstName": "bob",
+    "surName": "smith",
+    "email": "bob@smith.com",
+    "userCode": 0
+  },
+  {
+    "username": "jhonnyboy",
+    "password": "shining",
+    "firstName": "Jhon",
+    "surName": "Smith",
+    "email": "here@jhonny.com",
+    "userCode": 0
+  },
+  {
+    "username": "bombom",
+    "password": "tobias",
+    "firstName": "Bom",
+    "surName": "Tran",
+    "email": "bomth@hiof.no",
+    "userCode": 0
+  }
+]
