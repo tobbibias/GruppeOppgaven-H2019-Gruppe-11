@@ -12,7 +12,7 @@ class DatahandlerTest {
     @Test
     void testAddUser(){
         Datahandler d = new Datahandler();
-        User bom = new User("bombom","tobias","Bom","Tran","bomth@hiof.no");
+        Athlete bom = new Athlete("bombom","tobias","Bom","Tran","bomth@hiof.no");
         d.addUser(bom);
         assertEquals("Bom",d.getUser("bombom","tobias").getFirstName());
     }
@@ -36,22 +36,22 @@ class DatahandlerTest {
     @Test
     void testGetUser(){
         Datahandler d = new Datahandler();
-        assertEquals("Robert",d.getUser("robbi","robbern").getFirstName());
+        assertEquals("Robert",d.getUser("robbi","asthmahest").getFirstName());
     }
 
     @Test
     void getUserByCode(){
         Datahandler d = new Datahandler();
         d.getUserArrayList();
-        User tob = new User("tobbi","tobias","Tobias","Søyland","Tobisy@hiof.no");
-        User knu = new User("knutern","knuknu","Knut","Søyland","Knut@hiof.no");
-        User rob = new User("robbi","robbern","Robert","Søyland","Robert@hiof.no");
+        Athlete tob = new Athlete("tobbi","tobias","Tobias","Søyland","Tobisy@hiof.no");
+        Athlete knu = new Athlete("knutern","knuknu","Knut","Søyland","Knut@hiof.no");
+        Athlete rob = new Athlete("robbi","robbern","Robert","Søyland","Robert@hiof.no");
         d.addUser(tob);
         d.addUser(knu);
         d.addUser(rob);
-       assertEquals( "Tobias",d.getUserByCode(1).getFirstName());
-       assertEquals("Knut",d.getUserByCode(2).getFirstName());
-       assertEquals("Robert",d.getUserByCode(3).getFirstName());
+       assertEquals( "Tobias",d.getUserByCode(5).getFirstName());
+       assertEquals("Knut",d.getUserByCode(6).getFirstName());
+       assertEquals("Robert",d.getUserByCode(7).getFirstName());
 
     }
 }
