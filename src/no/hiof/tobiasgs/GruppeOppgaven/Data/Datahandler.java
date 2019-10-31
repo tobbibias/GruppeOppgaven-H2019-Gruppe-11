@@ -39,7 +39,7 @@ public class Datahandler {
         int athlete_count = 0;
         for (Athlete a: getUserArrayList()
         ) {
-            if (a.getFirstName().equals(a.getFirstName())){
+            if (a.getUserCode() == (athlete.getUserCode())){
                 athlete_count++;
             }
         }
