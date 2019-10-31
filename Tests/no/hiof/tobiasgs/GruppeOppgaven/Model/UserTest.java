@@ -13,9 +13,14 @@ class UserTest {
         assertTrue(user.getSurName()=="smith");
         assertTrue(user.getEmail()=="bob@smith.com");
         assertTrue(user.getUserCode()>0);
-
     }
 
+    @Test
+    void testUserCode(){
+        User user = new User("user1","password","bob","smith","bob@smith.com");
+        User user2 = new User("user2","password2","bobb","smithy","bob@smithy.com");
+        assertTrue(user2.getUserCode() > user.getUserCode());
+    }
 
     @Test
     void testLogin(){
