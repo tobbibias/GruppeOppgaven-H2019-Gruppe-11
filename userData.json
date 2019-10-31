@@ -1,26 +1,26 @@
 [
   {
-    "username": "bobby",
-    "password": "booby",
-    "firstName": "bob",
-    "surName": "smith",
-    "email": "bob@smith.com",
-    "userCode": 0
-  },
-  {
-    "username": "jhonnyboy",
-    "password": "shining",
-    "firstName": "Jhon",
-    "surName": "Smith",
-    "email": "here@jhonny.com",
-    "userCode": 0
-  },
-  {
-    "username": "bombom",
+    "username": "tobbi",
     "password": "tobias",
-    "firstName": "Bom",
-    "surName": "Tran",
-    "email": "bomth@hiof.no",
-    "userCode": 0
+    "firstName": "Tobias",
+    "surName": "Søyland",
+    "email": "Tobisy@hiof.no",
+    "userCode": 1
+  },
+  {
+    "username": "knutern",
+    "password": "knuknu",
+    "firstName": "Knut",
+    "surName": "Søyland",
+    "email": "Knut@hiof.no",
+    "userCode": 2
+  },
+  {
+    "username": "robbi",
+    "password": "robbern",
+    "firstName": "Robert",
+    "surName": "Søyland",
+    "email": "Robert@hiof.no",
+    "userCode": 3
   }
 ]

@@ -2,6 +2,7 @@ package no.hiof.tobiasgs.GruppeOppgaven.Data;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import no.hiof.tobiasgs.GruppeOppgaven.Model.Athlete;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.User;
 
 import java.io.*;
@@ -11,78 +12,47 @@ import java.util.Arrays;
 public class Datahandler {
 
 
-    private final static ArrayList<User> USER_ARRAY_LIST = new ArrayList<User>();
+    private final static ArrayList<Athlete> USER_ARRAY_LIST = new ArrayList<Athlete>();
 
-    public static ArrayList<User> getUserArrayList(){
+    public static ArrayList<Athlete> getUserArrayList(){
         if(USER_ARRAY_LIST.isEmpty()){
-            USER_ARRAY_LIST.addAll( collectUserData("userData.json"));
+            USER_ARRAY_LIST.addAll( collectUserData());
         }
         return USER_ARRAY_LIST;
     }
 
-    public static ArrayList<User> collectUserData(String filepath){
-
-        // creating the gson builder and gson from wich we wil parse json to or wanted format.
-        GsonBuilder gsonBuilder = new GsonBuilder().setPrettyPrinting();
-        Gson gson = gsonBuilder.create();
-        // the arrayList we want to fill with countries and then send to our observableList and further more to our controller's listView.
-        ArrayList<User> usersInJson = new ArrayList<User>();
-        // the strinbuilder wich will record the data red from the lines in json.
-        String line = "";
-        StringBuilder jsonLines = new StringBuilder();
-
-
-        try(BufferedReader bufferedReader = new BufferedReader(new FileReader(filepath))){
-            while ((line = bufferedReader.readLine()) != null){
-                jsonLines.append(line);
-            }
-            // converts the stringbuiler jsonlines list to an array of users.
-            User[] userArray = gson.fromJson(jsonLines.toString(),User[].class);
-
-            usersInJson.addAll(Arrays.asList(userArray));
-
-        }catch (IOException ioexc){
-            System.out.println(ioexc.getMessage());
-        }
-
-
-        return usersInJson;
+    public static ArrayList<Athlete> collectUserData(){
+        ArrayList<Athlete> athleteList = new ArrayList<Athlete>();
+        Athlete bom = new Athlete("bommi","Emilie","Bom","Tran","Bom@mail.com");
+        Athlete tob = new Athlete("tobbi","Amanda","Tobias","Søyland","Tob@mail.com");
+        Athlete tom = new Athlete("tommi","tommy","Thomas","Etternavn","Tom@mail.com");
+        Athlete rob = new Athlete("robbi","asthmahest","Robert","Engsmyr","robban@mail.com");
+        athleteList.add(bom);
+        athleteList.add(tob);
+        athleteList.add(tom);
+        athleteList.add(rob);
+        return athleteList;
     }
 
-    public static void addUser(User user){
+    public static void addUser(Athlete athlete){
         // first we check if the user is already in the list.
-        int user_count = 0;
-        for (User user1: collectUserData("userData.json")
+        int athlete_count = 0;
+        for (Athlete a: getUserArrayList()
         ) {
-            if (user1.getFirstName().equals(user.getFirstName())){
-                user_count++;
+            if (a.getFirstName().equals(a.getFirstName())){
+                athlete_count++;
             }
         }
-        if (user_count >= 1){
+        if (athlete_count >= 1){
             System.out.println("user is allready in register.");
         }else{
-            // Oppretter og instansierer et gsonbuilder objekt
-            GsonBuilder gsonBuilder = new GsonBuilder().setPrettyPrinting();
-            // Oppretter og instansierer et gson-objekt basert på de parameterne vi har laget builderen med
-            Gson gson = gsonBuilder.create();
 
-
-            getUserArrayList().add(user);
+            getUserArrayList().add(athlete);
             // Konverterer hele listen til JSON
-            String jsonTextListe = gson.toJson(getUserArrayList());
-            // Skriver ut JSON-en til konsollen
-            System.out.println("JSON liste: " + jsonTextListe);
-
-            try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("userData.json"))) {
-                bufferedWriter.write(jsonTextListe);
-            } catch (IOException ioexc) {
-                System.out.println(ioexc.getMessage());
-            }
         }
     }
 
     public  static User getUser(String username, String password){
-        collectUserData("userData.json");
         for (User user:getUserArrayList()) {
 
             if (user.login(username, password) == 1) {
@@ -90,6 +60,17 @@ public class Datahandler {
             }
 
         }
+        return null;
+    }
+
+    public static User getUserByCode(int UserCode) {
+        for (User u:getUserArrayList()
+             ) {
+            if (u.getUserCode() == UserCode){
+                return u;
+            }
+        }
+        System.out.println("could not find user with that code.");
         return null;
     }
 }
