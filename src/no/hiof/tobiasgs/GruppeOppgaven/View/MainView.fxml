@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="no.hiof.tobiasgs.GruppeOppgaven.View.MainView">
+   <children>
+      <TextField layoutX="145.0" layoutY="83.0" prefHeight="58.0" prefWidth="316.0" text="Login Screen" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="145.0" AnchorPane.topAnchor="30.0" />
+      <Button layoutX="239.0" layoutY="135.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Login" />
+      <ChoiceBox layoutX="220.0" layoutY="175.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
