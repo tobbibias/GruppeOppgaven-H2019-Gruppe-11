@@ -39,4 +39,5 @@ public class SportsClub extends Organization{
     public ArrayList<Events> getParticipatedEvents() {
         return participatedEvents;
     }
+
 }

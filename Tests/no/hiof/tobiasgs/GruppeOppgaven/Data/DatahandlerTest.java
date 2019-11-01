@@ -20,13 +20,13 @@ class DatahandlerTest {
     @Test
     void testExsistingUser(){
         Datahandler d = new Datahandler();
-        Athlete bom = new Athlete("bombom","tobias","Bom","Tran","bomth@hiof.no");
-        d.addUser(bom);
-        d.addUser(bom);
+        Athlete knut = new Athlete("bombom","tobias","knut","Tran","bomth@hiof.no");
+        d.addUser(knut);
+        d.addUser(knut);
         int userCount = 0;
-        for (User user:d.collectUserData()
+        for (User user:d.getUserArrayList()
         ) {
-            if (user.getFirstName().equals("Bom")){
+            if (user.getFirstName().equals("knut")){
                 userCount++;
             }
         }
