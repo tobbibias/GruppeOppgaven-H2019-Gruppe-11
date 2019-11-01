@@ -21,7 +21,7 @@ public class Datahandler {
         return USER_ARRAY_LIST;
     }
 
-    public static ArrayList<Athlete> collectUserData(){
+    private static ArrayList<Athlete> collectUserData(){
         ArrayList<Athlete> athleteList = new ArrayList<Athlete>();
         Athlete bom = new Athlete("bommi","Emilie","Bom","Tran","Bom@mail.com");
         Athlete tob = new Athlete("tobbi","Amanda","Tobias","Søyland","Tob@mail.com");

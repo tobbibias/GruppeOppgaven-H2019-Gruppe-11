@@ -1,9 +1,11 @@
 package no.hiof.tobiasgs.GruppeOppgaven.Model;
 
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicInteger;
 
-public class SportsClub {
+public class SportsClub extends Organization{
     private String teamCode;
+    private final static AtomicInteger count = new AtomicInteger(0);
     private Teamleader manager;
     private Federation federation;
     private Athlete teamCaptain;
@@ -11,11 +13,11 @@ public class SportsClub {
     private ArrayList<Events> upCommingEvents = new ArrayList<Events>();
     private ArrayList<Events> participatedEvents = new ArrayList<Events>();
 
-    public SportsClub(String teamCode, Teamleader manager, Federation federation, Athlete teamCaptain) {
-        this.teamCode = teamCode;
+    public SportsClub(String organizationName, String email, String postal, String zipcode, Teamleader manager, Federation federation) {
+        super(organizationName, email, postal, zipcode);
         this.manager = manager;
         this.federation = federation;
-        this.teamCaptain = teamCaptain;
+        this.teamCode = "T" +String.valueOf(count.incrementAndGet());
     }
 
     public String getTeamCode() {
@@ -37,4 +39,5 @@ public class SportsClub {
     public ArrayList<Events> getParticipatedEvents() {
         return participatedEvents;
     }
+
 }
