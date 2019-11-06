@@ -10,8 +10,7 @@ public class Organization {
     private AtomicInteger count = new AtomicInteger(0);
     private ArrayList<User> ansatte = new ArrayList<User>();
 
-<<<<<<< HEAD
-=======
+
     public Organization(String organizationName, String email, String postal, String zipcode) {
         this.organizationName = organizationName;
         this.email = email;
@@ -75,5 +74,5 @@ public class Organization {
             }
         }
     }
->>>>>>> Tobias_sitt_hjørne
+
 }
