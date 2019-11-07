@@ -1,6 +1,7 @@
 package no.hiof.tobiasgs.GruppeOppgaven.Data;
 
-
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Athlete;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.User;
 
