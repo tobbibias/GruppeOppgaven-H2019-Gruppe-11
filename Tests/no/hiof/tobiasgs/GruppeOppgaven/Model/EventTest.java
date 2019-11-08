@@ -7,12 +7,13 @@ import java.util.Date;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class EventTest {
+
     @Test
     void eventTest() {
-        Events event = new Events(new Federation("Norges fotball forbund",  "norge@fotball.no", "oslo", "1920"), "Norge vs Sverige",
-                "Ullevåll", "Fotballkamp Norge vs Sverige", new Date(2020, 7, 23));
+        Federation f = new Federation("ab","b@hotmail.com","1555",
+                "4545");
+        Events event = new Events ( f, "Sarpsborg","Vin Testing",
+                "drikke minst mulig", new Date(2019, 12, 24));
 
-
-    }
-
+}
 }

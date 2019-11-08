@@ -38,5 +38,5 @@ public class User {
         if (u.equals(username) && p.equals(password)){
             return 1;
         }return 0;
-    };
+    }
 }
