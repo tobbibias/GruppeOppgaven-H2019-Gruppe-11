@@ -7,4 +7,3 @@ Go to File -> Settings -> Appearance & Behavior -> Path Variables. Add new path 
 If MainFX is already in Configurations, proceed to step 6.
 Go to Edit Configuration... and press the + sign top left. Name: MainFX, Main class: TicketService.MainFX.
  Add : --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml    to "Edit Configurations... -> VM Options."
-  Add : --module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml    to "Edit Configurations... -> VM Options."
