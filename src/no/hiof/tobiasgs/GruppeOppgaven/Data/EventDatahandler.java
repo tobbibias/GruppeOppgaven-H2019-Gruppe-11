@@ -4,7 +4,6 @@ import no.hiof.tobiasgs.GruppeOppgaven.Model.Athlete;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Events;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Date;
 
 public class EventDatahandler {
@@ -40,15 +39,9 @@ public class EventDatahandler {
         p.add(d);
         p.add(e);
 
-        Datahandler datahandler = new Datahandler();
 
-        for (Athlete athlete: p
-             ) {
-            datahandler.addUser(athlete);
-        }
-
-        norwayCup.addMultipleParticipants(p);
         norwayRace.addMultipleParticipants(p);
+
 
         norwayRace.addResults(norwayRace.getParticipants().get(0),1);
         norwayRace.addResults(norwayRace.getParticipants().get(1),2);
@@ -58,6 +51,7 @@ public class EventDatahandler {
 
         output.add(norwayCup);
         output.add(norwayRace);
+
         return output;
     }
 

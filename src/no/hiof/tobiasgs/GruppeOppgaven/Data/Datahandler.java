@@ -30,6 +30,8 @@ public class Datahandler {
         athleteList.add(tob);
         athleteList.add(tom);
         athleteList.add(rob);
+
+
         return athleteList;
     }
 

@@ -39,4 +39,9 @@ public class User {
             return 1;
         }return 0;
     };
+
+    @Override
+    public String toString() {
+        return firstName + "  :" + userCode;
+    }
 }

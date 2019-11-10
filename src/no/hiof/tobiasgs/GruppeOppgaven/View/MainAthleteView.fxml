@@ -17,7 +17,6 @@
                      <children>
                         <Button fx:id="teambtn" mnemonicParsing="false" prefHeight="27.0" prefWidth="109.0" text="View Teams" />
                         <Button fx:id="memberBtn" mnemonicParsing="false" prefHeight="27.0" prefWidth="109.0" text="View Members" />
-                        <Button fx:id="resultbtn" mnemonicParsing="false" prefHeight="27.0" prefWidth="109.0" text="View Results" />
                      </children>
                   </VBox>
                   <Button fx:id="leaveTeamBtn" layoutX="8.0" layoutY="305.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="108.0" text="Leave Team" />
@@ -35,8 +34,13 @@
          <items>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="305.0" prefWidth="118.0">
                <children>
-                  <VBox layoutX="5.0" layoutY="14.0" prefHeight="158.0" prefWidth="100.0" />
-                  <Button fx:id="registerbtn1" layoutX="6.0" layoutY="312.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="100.0" text="Join Event" />
+                  <VBox layoutX="5.0" layoutY="14.0" prefHeight="158.0" prefWidth="100.0">
+                     <children>
+                        <Button fx:id="resultbtn" mnemonicParsing="false" prefHeight="27.0" prefWidth="109.0" text="View Results" />
+                        <Button fx:id="yourEventBtn" mnemonicParsing="false" prefHeight="16.0" prefWidth="99.0" text="Your events" />
+                        <Button fx:id="allEventsBtn" mnemonicParsing="false" prefHeight="27.0" prefWidth="99.0" text="All Events" />
+                     </children></VBox>
+                  <Button fx:id="registerbtn1" layoutX="6.0" layoutY="283.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="100.0" text="Join Event" />
                </children>
             </AnchorPane>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="353.0" prefWidth="165.0">

@@ -56,9 +56,7 @@ public class MainJavaFx extends Application {
 
     }
 
-    public void openFederationView(){
-
-    }
+    
 
     public static MainJavaFx getMinapp() {
         return minapp;
@@ -69,5 +67,6 @@ public class MainJavaFx extends Application {
     }
 
 
-
+    public void openFederationView() {
+    }
 }

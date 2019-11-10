@@ -8,8 +8,11 @@ public class Events {
     private Federation host;
     private String location, eventName, description;
     private Date date;
-    private ArrayList<Athlete> participants;
-    private ArrayList<Result> results;
+    private ArrayList<Athlete> participants = new ArrayList<Athlete>();
+    private ArrayList<Result> results = new ArrayList<Result>();
+
+    public Events() {
+    }
 
     public Events(Federation host, String location, String eventName, String description, Date date) {
         this.host = host;
@@ -20,14 +23,17 @@ public class Events {
     }
 
     public void addParticipant(Athlete a){
-        if(this.date.getSeconds() > (System.currentTimeMillis() / 60)){
-            participants.add(a);
-        }
+            if (this.date.compareTo(new Date()) > 0){
+                participants.add(a);
+            }
     }
 
     public void addMultipleParticipants(ArrayList<Athlete> athletes){
-        if(this.date.getSeconds() > (System.currentTimeMillis() / 60)){
-            participants.addAll(athletes);
+        for (Athlete n:athletes
+             ) {
+            if (this.date.compareTo(new Date()) > 0){
+                participants.add(n);
+            }
         }
     }
 
@@ -39,6 +45,10 @@ public class Events {
         if (participants.contains(a)){
             results.add(new Result(a.getUserCode(),p));
         }
+    }
+
+    public ArrayList<Result> getResults() {
+        return results;
     }
 
     public Federation getHost() {
@@ -61,6 +71,8 @@ public class Events {
         return date;
     }
 
+
+
     public class Result{
 
         private int athleteID;
@@ -76,6 +88,22 @@ public class Events {
             Placement = placement;
             this.time = time;
         }
+
+        public int getAthleteID() {
+            return athleteID;
+        }
+
+        public int getPlacement() {
+            return Placement;
+        }
+
+        public Time getTime() {
+            return time;
+        }
     }
 
+    @Override
+    public String toString() {
+        return eventName + " Hosted by: " + host.getOrganizationName() + " in: " + location;
+    }
 }

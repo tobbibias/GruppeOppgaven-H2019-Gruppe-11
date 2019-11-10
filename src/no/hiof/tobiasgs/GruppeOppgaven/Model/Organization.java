@@ -10,6 +10,8 @@ public class Organization {
     private AtomicInteger count = new AtomicInteger(0);
     private ArrayList<User> ansatte = new ArrayList<User>();
 
+    public Organization() {
+    }
 
     public Organization(String organizationName, String email, String postal, String zipcode) {
         this.organizationName = organizationName;
@@ -75,4 +77,8 @@ public class Organization {
         }
     }
 
+    @Override
+    public String toString() {
+        return organizationName;
+    }
 }

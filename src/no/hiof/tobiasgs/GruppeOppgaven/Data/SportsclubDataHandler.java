@@ -21,6 +21,7 @@ public class SportsclubDataHandler {
         // the list we return
         ArrayList<SportsClub> sportsClubArrayList = new ArrayList<SportsClub>();
         FederationDatahandler d = new FederationDatahandler();
+        Datahandler d_athletes = new Datahandler();
         // making two teams to prototype
 
         Teamleader Oliver = new Teamleader("Olli","Ollie","Oliver","PingPong","Oliver@pingPong.no","Manager");
@@ -29,6 +30,9 @@ public class SportsclubDataHandler {
 
         Teamleader Hans = new Teamleader("Hanhan","HansErBest","Hans","Hansen","hans@email.no","Manager");
         SportsClub HansIL = new SportsClub("HansIL","HansIL@mail.no","Sarpsborg","1800",Hans,d.getFederationArrayList().get(0));
+
+        BomIL.addMembers(d_athletes.getUserArrayList());
+
 
         // adding the teams to the arrayList
         sportsClubArrayList.add(BomIL);
