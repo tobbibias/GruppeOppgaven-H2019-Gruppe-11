@@ -17,32 +17,20 @@ public class MainController {
 
     @FXML
     private Button loginBtn;
-    @FXML
-    private ChoiceBox choiceBox;
     private ObservableList<String> options;
 
 
     public void initialize(){
         // setting up the buttons to change to their respective views
-       updateComboView();
        loginBtn.setOnAction(new EventHandler<ActionEvent>() {
            @Override
            public void handle(ActionEvent actionEvent) {
-                if (choiceBox.getValue() == "Athlete"){
-                    MainJavaFx.getMinapp().openAthleteView();
-                }else if (choiceBox.getValue() == "Team"){
-                    MainJavaFx.getMinapp().openTeamView();
-                }else if(choiceBox.getValue() == "Federation"){
-                    MainJavaFx.getMinapp().openFederationView();
-                }
+                MainJavaFx.getMinapp().openAthleteView();
            }
        });
     }
 
-    private void updateComboView() {
-        choiceBox.getItems().addAll("Athlete","Team","Federation");
 
-    }
 
 
 

@@ -14,6 +14,7 @@ import no.hiof.tobiasgs.GruppeOppgaven.Data.Datahandler;
 import no.hiof.tobiasgs.GruppeOppgaven.Data.EventDatahandler;
 import no.hiof.tobiasgs.GruppeOppgaven.Data.FederationDatahandler;
 import no.hiof.tobiasgs.GruppeOppgaven.Data.SportsclubDataHandler;
+import no.hiof.tobiasgs.GruppeOppgaven.MainJavaFx;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Athlete;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Events;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.SportsClub;
@@ -24,7 +25,7 @@ import java.util.Date;
 public class MainAthleteController {
 
     @FXML
-    private Button teambtn,memberBtn,leaveTeamBtn,joinTeambtn,registerbtn1,profileBtn,logoutBtn,yourEventBtn,allEventsBtn,resultbtn;
+    private Button teambtn,memberBtn,leaveTeamBtn,joinTeambtn,registerbtn1,profileBtn,logoutBtn,yourEventBtn,allEventsBtn,resultbtn,leaveEventBtn;
     @FXML
     private ListView teamListView,eventListView;
 
@@ -123,7 +124,7 @@ public class MainAthleteController {
                }
            }
        });
-        resultbtn.setOnAction(new EventHandler<ActionEvent>() {
+       resultbtn.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 results.removeAll(results);
@@ -131,6 +132,36 @@ public class MainAthleteController {
                 eventListView.setItems(results);
             }
         });
+       leaveEventBtn.setOnAction(new EventHandler<ActionEvent>() {
+           @Override
+           public void handle(ActionEvent actionEvent) {
+               if (selectedEvent.getParticipants().contains(testUser)){
+                   selectedEvent.removeParticipant(testUser);
+                   if (!selectedEvent.getParticipants().contains(testUser)){
+                       testUser.removeEvent(selectedEvent);
+                   }
+               }
+           }
+       });
+       profileBtn.setOnAction(new EventHandler<ActionEvent>() {
+           @Override
+           public void handle(ActionEvent actionEvent) {
+               Alert alert = new Alert(Alert.AlertType.INFORMATION);
+               alert.setTitle("Profile");
+               alert.setContentText("Name: " + testUser.getFirstName() + " " + testUser.getSurName() + "\n"
+               + " Email: " + testUser.getEmail() + "\n" +
+                       "User Code: " + testUser.getUserCode()  + "\n" +
+                       "SportsClub: " + testUser.getSportsClub().getOrganizationName()
+               );
+               alert.show();
+           }
+       });
+       logoutBtn.setOnAction(new EventHandler<ActionEvent>() {
+           @Override
+           public void handle(ActionEvent actionEvent) {
+               MainJavaFx.getMinapp().CloseView();
+           }
+       });
     }
 
     private void viewMembers() {

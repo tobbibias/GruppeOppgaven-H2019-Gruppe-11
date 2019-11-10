@@ -35,4 +35,10 @@ public class Athlete extends User {
            registeredEvents.add(e);
        }
     }
+
+    public void removeEvent(Events selectedEvent) {
+        if (registeredEvents.contains(selectedEvent)){
+            registeredEvents.remove(selectedEvent);
+        }
+    }
 }

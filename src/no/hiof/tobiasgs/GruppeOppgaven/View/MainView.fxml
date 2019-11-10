@@ -9,6 +9,6 @@
    <children>
       <Button fx:id="loginBtn" layoutX="239.0" layoutY="135.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Login" />
       <Label layoutX="283.0" layoutY="41.0" text="Login" />
-      <ChoiceBox fx:id="choiceBox" layoutX="225.0" layoutY="220.0" prefWidth="150.0" />
+
    </children>
 </AnchorPane>

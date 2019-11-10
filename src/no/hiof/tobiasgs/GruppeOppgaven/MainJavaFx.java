@@ -14,9 +14,6 @@ public class MainJavaFx extends Application {
     private  Stage primaryStage;
     private static MainJavaFx minapp;
 
-
-
-
     @Override
     public void start(Stage stage) throws Exception{
         this.primaryStage = stage;
@@ -50,13 +47,7 @@ public class MainJavaFx extends Application {
         System.out.println(ioex.getMessage());
     }
 
-
     }
-    public void openTeamView(){
-
-    }
-
-    
 
     public static MainJavaFx getMinapp() {
         return minapp;
@@ -66,7 +57,8 @@ public class MainJavaFx extends Application {
         Application.launch(args);
     }
 
-
-    public void openFederationView() {
+    public void CloseView() {
+        primaryStage.close();
+        openMainView();
     }
 }

@@ -71,6 +71,11 @@ public class Events {
         return date;
     }
 
+    public void removeParticipant(Athlete testUser) {
+        if (participants.contains(testUser)){
+            participants.remove(testUser);
+        }
+    }
 
 
     public class Result{
@@ -99,6 +104,12 @@ public class Events {
 
         public Time getTime() {
             return time;
+        }
+
+        @Override
+        public String toString() {
+            return
+                    "athleteID=" + athleteID + ", Placement=" + Placement;
         }
     }
 
