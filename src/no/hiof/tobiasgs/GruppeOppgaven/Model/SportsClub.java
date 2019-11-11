@@ -27,6 +27,7 @@ public class SportsClub extends Organization{
     public void addMember(Athlete a){
         if (!members.contains(a)){
             members.add(a);
+            a.setSportsClub(this);
         }
     }
     public void addMembers(ArrayList<Athlete> athletes){
