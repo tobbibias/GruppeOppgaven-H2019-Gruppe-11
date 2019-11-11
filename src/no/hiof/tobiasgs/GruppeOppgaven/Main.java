@@ -6,13 +6,13 @@ import no.hiof.tobiasgs.GruppeOppgaven.Data.FederationDatahandler;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Athlete;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Events;
 
+import java.beans.JavaBean;
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Main {
 
 
-    public static void main(String[] args) {
-	// just a test committing
+    public static void main(String[] args) {}
 
-    }
 }

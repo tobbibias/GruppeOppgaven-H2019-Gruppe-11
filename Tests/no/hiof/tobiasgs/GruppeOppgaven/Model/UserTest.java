@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class UserTest {
 
     @Test
-    void testUserClassToGetATrueObject()throws Exception{
+    void testUserClassToGetATrueObject(){
         User user = new User("user1","password","bob","smith","bob@smith.com");
         assertTrue(user.getFirstName()=="bob");
         assertTrue(user.getSurName()=="smith");
@@ -16,15 +16,21 @@ class UserTest {
     }
 
     @Test
-    void testUserCode()throws Exception{
+    void testUserCode(){
         User user = new User("user1","password","bob","smith","bob@smith.com");
         User user2 = new User("user2","password2","bobb","smithy","bob@smithy.com");
         assertTrue(user2.getUserCode() > user.getUserCode());
     }
 
     @Test
-    void testLogin()throws Exception{
+    void testLogin(){
         User user = new User("user1","password","bob","smith","bob@smith.com");
         assertTrue(user.login("user1","password") == 1);
     }
+    @Test
+    void loginFailTest(){
+        User user = new User("user1","password","bob","smith","bob@smith.com");
+        assertTrue(user.login("fail","fail") == 0);
+    }
+
 }

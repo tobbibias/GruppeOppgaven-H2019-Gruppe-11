@@ -82,16 +82,16 @@ public class Events {
     public class Result{
 
         private int athleteID;
-        private int Placement;
+        private int placement;
         private Time time;
 
         public Result(int athleteID, int placement) {
             this.athleteID = athleteID;
-            Placement = placement;
+            placement = placement;
         }
         public Result(int athleteID, int placement, Time time) {
             this.athleteID = athleteID;
-            Placement = placement;
+            this.placement = placement;
             this.time = time;
         }
 
@@ -100,7 +100,7 @@ public class Events {
         }
 
         public int getPlacement() {
-            return Placement;
+            return placement;
         }
 
         public Time getTime() {
@@ -110,7 +110,7 @@ public class Events {
         @Override
         public String toString() {
             return
-                    "athleteID=" + athleteID + ", Placement=" + Placement;
+                    "athleteID=" + athleteID + ", Placement=" + placement;
         }
     }
 
