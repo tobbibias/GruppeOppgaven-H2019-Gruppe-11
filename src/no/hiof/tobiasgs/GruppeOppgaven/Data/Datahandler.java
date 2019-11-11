@@ -4,9 +4,9 @@ package no.hiof.tobiasgs.GruppeOppgaven.Data;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Athlete;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.User;
 
-import java.io.*;
+
 import java.util.ArrayList;
-import java.util.Arrays;
+
 
 public class Datahandler {
 
@@ -37,14 +37,9 @@ public class Datahandler {
 
     public static void addUser(Athlete athlete){
         // first we check if the user is already in the list.
-        int athlete_count = 0;
-        for (Athlete a: getUserArrayList()
-        ) {
-            if (a.getUserCode() == (athlete.getUserCode())){
-                athlete_count++;
-            }
-        }
-        if (athlete_count >= 1){
+
+
+        if (getUserArrayList().contains(athlete)){
             System.out.println("user is allready in register.");
         }else{
 

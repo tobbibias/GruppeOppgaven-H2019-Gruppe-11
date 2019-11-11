@@ -49,9 +49,9 @@ class DatahandlerTest {
         d.addUser(tob);
         d.addUser(knu);
         d.addUser(rob);
-       assertEquals( "Tobias",d.getUserByCode(5).getFirstName());
-       assertEquals("Knut",d.getUserByCode(6).getFirstName());
-       assertEquals("Robert",d.getUserByCode(7).getFirstName());
+       assertEquals( "Tobias",d.getUserByCode(tob.getUserCode()).getFirstName());
+       assertEquals("Knut",d.getUserByCode(knu.getUserCode()).getFirstName());
+       assertEquals("Robert",d.getUserByCode(rob.getUserCode()).getFirstName());
 
     }
 }
