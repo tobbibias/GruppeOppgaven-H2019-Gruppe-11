@@ -16,4 +16,19 @@ public class EventTest {
                 "drikke minst mulig", new Date(2019, 12, 24));
 
 }
+
+    @Test
+    void addParticipantWhenNowISBiggerThanEvenTime(){
+        Athlete testAthlete = new Athlete("test","test", "test",
+                "test", "test@.com");
+        Federation testFed = new Federation("Testfed", "test", "test", "test");
+
+        Events testEvent1 = new Events(testFed,"test","test","test",new Date(2003,1,1) );
+        Events testEvent2 = new Events(testFed,"test","test","test",new Date(2030,1,1) );
+        testEvent1.addParticipant(testAthlete);
+        testEvent2.addParticipant(testAthlete);
+
+        assertFalse(testEvent1.getParticipants().contains(testAthlete));
+        assertTrue(testEvent2.getParticipants().contains(testAthlete));
+    }
 }

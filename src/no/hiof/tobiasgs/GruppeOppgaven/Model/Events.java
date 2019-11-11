@@ -1,6 +1,7 @@
 package no.hiof.tobiasgs.GruppeOppgaven.Model;
 
 import java.sql.Time;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -23,7 +24,7 @@ public class Events {
     }
 
     public void addParticipant(Athlete a){
-            if (this.date.compareTo(new Date()) > 0){
+            if (this.date.compareTo(new Date(LocalDate.now().getYear(),LocalDate.now().getMonthValue(),LocalDate.now().getDayOfMonth())) > 0){
                 participants.add(a);
             }
     }
@@ -31,7 +32,7 @@ public class Events {
     public void addMultipleParticipants(ArrayList<Athlete> athletes){
         for (Athlete n:athletes
              ) {
-            if (this.date.compareTo(new Date()) > 0){
+            if (date.compareTo(this.date) < 0){
                 participants.add(n);
             }
         }
