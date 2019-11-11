@@ -15,7 +15,7 @@ public class FederationEmployeeTest {
 
             assertEquals(fed,fedemp.getFederation());
             assertEquals("test",fedemp.getJobDescription());
-            assertEquals(1,fedemp.getUserCode());
+            assertEquals(10,fedemp.getUserCode());
     }
 
 
