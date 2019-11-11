@@ -30,11 +30,8 @@ public class Events {
     }
 
     public void addMultipleParticipants(ArrayList<Athlete> athletes){
-        for (Athlete n:athletes
-             ) {
-            if (date.compareTo(this.date) < 0){
-                participants.add(n);
-            }
+        for (Athlete n:athletes) {
+            addParticipant(n);
         }
     }
 
