@@ -68,12 +68,8 @@ public class Organization {
     }
 
     public void removeEmployee(User u){
-        ArrayList<User> newArray = new ArrayList<User>();
-        for (User n:ansatte
-             ) {
-            if (n.getUserCode() != u.getUserCode()){
-                newArray.add(u);
-            }
+        if(ansatte.contains(u)){
+            ansatte.remove(u);
         }
     }
 
