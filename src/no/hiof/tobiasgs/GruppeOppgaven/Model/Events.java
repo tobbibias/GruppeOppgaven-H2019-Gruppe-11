@@ -30,11 +30,8 @@ public class Events {
     }
 
     public void addMultipleParticipants(ArrayList<Athlete> athletes){
-        for (Athlete n:athletes
-             ) {
-            if (date.compareTo(this.date) < 0){
-                participants.add(n);
-            }
+        for (Athlete n:athletes) {
+            addParticipant(n);
         }
     }
 
@@ -87,13 +84,9 @@ public class Events {
 
         public Result(int athleteID, int placement) {
             this.athleteID = athleteID;
-            placement = placement;
-        }
-        public Result(int athleteID, int placement, Time time) {
-            this.athleteID = athleteID;
             this.placement = placement;
-            this.time = time;
         }
+
 
         public int getAthleteID() {
             return athleteID;
