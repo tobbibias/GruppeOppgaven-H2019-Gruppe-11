@@ -84,13 +84,9 @@ public class Events {
 
         public Result(int athleteID, int placement) {
             this.athleteID = athleteID;
-            placement = placement;
-        }
-        public Result(int athleteID, int placement, Time time) {
-            this.athleteID = athleteID;
             this.placement = placement;
-            this.time = time;
         }
+
 
         public int getAthleteID() {
             return athleteID;
