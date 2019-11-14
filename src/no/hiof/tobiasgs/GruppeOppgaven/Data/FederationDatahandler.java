@@ -27,14 +27,9 @@ public class FederationDatahandler {
         return  federations;
     }
     public void addFederation(Federation f){
-        int c=0;
-        for (Federation n:getFederationArrayList()
-             ) {
-            if (n.getOrganizationCode() == f.getOrganizationCode()){
-                c++;
-            }
-        }
-        if (c<1){
+
+
+        if(!FEDERATION_ARRAY_LIST.contains(f)) {
             FEDERATION_ARRAY_LIST.add(f);
         }
     }
