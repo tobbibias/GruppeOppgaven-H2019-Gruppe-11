@@ -12,7 +12,14 @@
 (laste opp resultater) as lasteres
 
 
-
+leder -up-> oa
+leder -right-> redigere
+leder -left-> invitere
+leder -down-> setidl
+leder -up-> seres
+leder -right-> godkjennebetaling
+leder -left-> sepå
+leder -down-> lasteres
 
 
 
