@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDataHandlerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsClubDataHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/TeamViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDatahandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDatahandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsclubDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsclubDataHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GruppeOppgaven-H2019-Gruppe-11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GruppeOppgaven-H2019-Gruppe-11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rapport gruppeoppgave.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Rapport gruppeoppgave.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,33 +53,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClubTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/EventDatahandler.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDatahandler.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsclubDataHandler.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClubTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/MainJavaFx.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/EventTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/MainController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/AthleteTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Teamleader.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/OrganizationTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/MainController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/MainAthleteController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Teamleader.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDataHandlerTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/MainAthleteController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Events.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsClubDataHandlerTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/MainJavaFx.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Athlete.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/View/MainAthleteView.fxml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsClubDataHandlerTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Athlete.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1SsHGEIwLomAG2j4WPd1L8qfEKT" />
   <component name="PropertiesComponent">
@@ -98,8 +95,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PATH_TO_FX$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
@@ -128,7 +125,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in GruppeOppgaven-H2019-Gruppe-11">
+  <component name="RunManager" selected="Application.MainJavaFx">
+    <configuration name="MainJavaFx" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.MainJavaFx" />
+      <module name="GruppeOppgaven-H2019-Gruppe-11" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules=javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in GruppeOppgaven-H2019-Gruppe-11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GruppeOppgaven-H2019-Gruppe-11" />
       <option name="PACKAGE_NAME" value="" />
@@ -202,6 +207,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MainJavaFx" />
       <item itemvalue="JUnit.SportsClubDataHandlerTest.arrayListStaticShouldAddEachMemberIntoSportsClub" />
       <item itemvalue="JUnit.All in GruppeOppgaven-H2019-Gruppe-11" />
       <item itemvalue="JUnit.SportsClubDataHandlerTest.removeASportsclubMember" />
@@ -238,6 +244,8 @@
       <workItem from="1572344886659" duration="6000" />
       <workItem from="1572345296216" duration="2131000" />
       <workItem from="1573547361093" duration="10724000" />
+      <workItem from="1573956415379" duration="967000" />
+      <workItem from="1573997794378" duration="20000" />
     </task>
     <servers />
   </component>
@@ -293,80 +301,5 @@
       <FILTER>no.hiof.tobiasgs.GruppeOppgaven.Data.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$All_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="All in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1573557949223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>GruppeOppgaven-H2019-Gruppe-11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>gson-2.8.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
