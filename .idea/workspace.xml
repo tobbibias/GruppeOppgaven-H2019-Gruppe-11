@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDataHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsClubDataHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rapport gruppeoppgave.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Rapport gruppeoppgave.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/TeamViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDatahandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDatahandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsclubDataHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsclubDataHandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -279,16 +283,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$no_hiof_tobiasgs_GruppeOppgaven_Model_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="no.hiof.tobiasgs.GruppeOppgaven.Model in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1573768976491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$no_hiof_tobiasgs_GruppeOppgaven_Model_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="no.hiof.tobiasgs.GruppeOppgaven.Model in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1573547387668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>no.hiof.tobiasgs.GruppeOppgaven.Model.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$no_hiof_tobiasgs_GruppeOppgaven_Data_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="no.hiof.tobiasgs.GruppeOppgaven.Data in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1573768825560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$no_hiof_tobiasgs_GruppeOppgaven_Data_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="no.hiof.tobiasgs.GruppeOppgaven.Data in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1573552901427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>no.hiof.tobiasgs.GruppeOppgaven.Data.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$SportsClubDataHandlerTest_removeASportsclubMember.ic" NAME="SportsClubDataHandlerTest.removeASportsclubMember Coverage Results" MODIFIED="1573554209895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>no.hiof.tobiasgs.GruppeOppgaven.Data.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$All_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="All in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1573809054609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$All_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="All in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1573557949223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
     <states>
