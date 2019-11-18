@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GruppeOppgaven-H2019-Gruppe-11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GruppeOppgaven-H2019-Gruppe-11.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rapport gruppeoppgave.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Rapport gruppeoppgave.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,33 +51,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/EventDatahandler.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Athlete.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/View/MainAthleteView.fxml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/Datahandler.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/EventDatahandler.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDatahandler.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsclubDataHandler.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClubTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsclubDataHandler.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/MainJavaFx.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/UserTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/EventTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/AthleteTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/OrganizationTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDataHandlerTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsClubDataHandlerTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/MainController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/MainAthleteController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Teamleader.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/FederationDataHandlerTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Organization.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Events.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Federation.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/User.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Athlete.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/View/MainAthleteView.fxml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/SportsClubDataHandlerTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationTest.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/DatahandlerTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1SsHGEIwLomAG2j4WPd1L8qfEKT" />
   <component name="PropertiesComponent">
@@ -246,6 +244,7 @@
       <workItem from="1573547361093" duration="10724000" />
       <workItem from="1573956415379" duration="967000" />
       <workItem from="1573997794378" duration="20000" />
+      <workItem from="1574074615006" duration="603000" />
     </task>
     <servers />
   </component>
