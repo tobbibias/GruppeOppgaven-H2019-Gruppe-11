@@ -58,7 +58,7 @@ public class EventDatahandler {
 
     // add event
     public static void addEvent(Events e){
-        if(EVENTS_ARRAY_LIST.contains(e)){
+        if(!EVENTS_ARRAY_LIST.contains(e)){
             EVENTS_ARRAY_LIST.add(e);
         }
     }

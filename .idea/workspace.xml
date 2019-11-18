@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e86c2d-6b32-4e99-b0d3-bf9352310d4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/EventDataHandlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/EventDatahandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Data/EventDatahandler.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +36,21 @@
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
     <option name="myAutoScrollToSource" value="true" />
-    <option name="myElementSize" value="240" />
+    <option name="myElementSize" value="226" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +87,7 @@
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/MainController.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/uml/classeDiagram/ClasseDiagram_12_10.puml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Controller/MainAthleteController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tests/no/hiof/tobiasgs/GruppeOppgaven/Data/EventDataHandlerTest.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/SportsClub.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/Teamleader.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/no/hiof/tobiasgs/GruppeOppgaven/Model/FederationEmployee.java" root0="SKIP_INSPECTION" />
@@ -123,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainJavaFx">
+  <component name="RunManager" selected="JUnit.All in GruppeOppgaven-H2019-Gruppe-11">
     <configuration name="MainJavaFx" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.MainJavaFx" />
       <module name="GruppeOppgaven-H2019-Gruppe-11" />
@@ -136,6 +153,38 @@
       <module name="GruppeOppgaven-H2019-Gruppe-11" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventDataHandlerTest.addEventsToArraylist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GruppeOppgaven-H2019-Gruppe-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
+      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.EventDataHandlerTest" />
+      <option name="METHOD_NAME" value="addEventsToArraylist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventDataHandlerTest.removeAEventFromTheList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GruppeOppgaven-H2019-Gruppe-11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
+      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.EventDataHandlerTest" />
+      <option name="METHOD_NAME" value="removeAEventFromTheList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,53 +221,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SportsClubDataHandlerTest.arrayListStaticShouldAddEachMemberIntoSportsClub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GruppeOppgaven-H2019-Gruppe-11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
-      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.SportsClubDataHandlerTest" />
-      <option name="METHOD_NAME" value="arrayListStaticShouldAddEachMemberIntoSportsClub" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SportsClubDataHandlerTest.removeASportsclubMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GruppeOppgaven-H2019-Gruppe-11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hiof.tobiasgs.GruppeOppgaven.Data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data" />
-      <option name="MAIN_CLASS_NAME" value="no.hiof.tobiasgs.GruppeOppgaven.Data.SportsClubDataHandlerTest" />
-      <option name="METHOD_NAME" value="removeASportsclubMember" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MainJavaFx" />
-      <item itemvalue="JUnit.SportsClubDataHandlerTest.arrayListStaticShouldAddEachMemberIntoSportsClub" />
       <item itemvalue="JUnit.All in GruppeOppgaven-H2019-Gruppe-11" />
-      <item itemvalue="JUnit.SportsClubDataHandlerTest.removeASportsclubMember" />
       <item itemvalue="JUnit.FederationDataHandlerTest.addFederationMemberToArraylist" />
       <item itemvalue="JUnit.FederationDataHandlerTest.removeAFederationMember" />
+      <item itemvalue="JUnit.EventDataHandlerTest.addEventsToArraylist" />
+      <item itemvalue="JUnit.EventDataHandlerTest.removeAEventFromTheList" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in GruppeOppgaven-H2019-Gruppe-11" />
+        <item itemvalue="JUnit.EventDataHandlerTest.removeAEventFromTheList" />
+        <item itemvalue="JUnit.EventDataHandlerTest.addEventsToArraylist" />
         <item itemvalue="JUnit.FederationDataHandlerTest.removeAFederationMember" />
         <item itemvalue="JUnit.FederationDataHandlerTest.addFederationMemberToArraylist" />
-        <item itemvalue="JUnit.SportsClubDataHandlerTest.arrayListStaticShouldAddEachMemberIntoSportsClub" />
-        <item itemvalue="JUnit.SportsClubDataHandlerTest.removeASportsclubMember" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +262,7 @@
       <workItem from="1573956415379" duration="967000" />
       <workItem from="1573997794378" duration="20000" />
       <workItem from="1574074615006" duration="827000" />
+      <workItem from="1574116303268" duration="2141000" />
     </task>
     <servers />
   </component>
@@ -299,6 +317,6 @@
     <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$SportsClubDataHandlerTest_removeASportsclubMember.ic" NAME="SportsClubDataHandlerTest.removeASportsclubMember Coverage Results" MODIFIED="1573554209895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>no.hiof.tobiasgs.GruppeOppgaven.Data.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$All_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="All in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1573557949223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/GruppeOppgaven_H2019_Gruppe_11$All_in_GruppeOppgaven_H2019_Gruppe_11.ic" NAME="All in GruppeOppgaven-H2019-Gruppe-11 Coverage Results" MODIFIED="1574118414171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
