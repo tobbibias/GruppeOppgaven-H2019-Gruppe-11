@@ -18,7 +18,7 @@ class SportsClubTest {
         SportsClub sportClub = new SportsClub("test", "test", "test", "test",teamleader, fed );
         assertEquals(sportClub.getManager(),teamleader);
         assertEquals(sportClub.getFederation(),fed);
-        assertEquals(sportClub.getTeamCode(),"T1");
+        assertEquals(sportClub.getTeamCode(),"T4");
     }
 
     @Test
