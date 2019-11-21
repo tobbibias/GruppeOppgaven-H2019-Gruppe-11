@@ -6,13 +6,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import javax.imageio.IIOException;
 import java.io.IOException;
 
 
 public class MainJavaFx extends Application {
     private  Stage primaryStage;
-    private static MainJavaFx minapp;
+    private  static MainJavaFx minapp;
 
     @Override
     public void start(Stage stage) throws Exception{
@@ -24,8 +23,8 @@ public class MainJavaFx extends Application {
     public void openMainView() {
         try{
             FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("View/MainView.fxml"));
-            Parent root = fxmlLoader.load();
+            fxmlLoader.setLocation(getClass().getResource("/View/MainView.fxml"));
+            Parent root = (Parent) fxmlLoader.load();
             Scene mainScene = new Scene(root);
             primaryStage.setScene(mainScene);
             primaryStage.setTitle("Login Screen");
@@ -37,7 +36,7 @@ public class MainJavaFx extends Application {
     public void openAthleteView(){
     try{
         FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("View/MainAthleteView.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("/View/MainAthleteView.fxml"));
         Parent root = fxmlLoader.load();
         Scene mainScene = new Scene(root);
         primaryStage.setScene(mainScene);
@@ -49,7 +48,7 @@ public class MainJavaFx extends Application {
 
     }
 
-    public static MainJavaFx getMinapp() {
+    public  static MainJavaFx getMinapp() {
         return minapp;
     }
 
@@ -61,4 +60,9 @@ public class MainJavaFx extends Application {
         primaryStage.close();
         openMainView();
     }
+
+    public static Parameters getApp(){
+        return minapp.getParameters();
+    }
+
 }
