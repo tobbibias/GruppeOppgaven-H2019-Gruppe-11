@@ -2,7 +2,8 @@ package no.hiof.tobiasgs.GruppeOppgaven.Data;
 
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Federation;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
 public class FederationDataHandlerTest {
     @Test
     void addFederationMemberToArraylist(){

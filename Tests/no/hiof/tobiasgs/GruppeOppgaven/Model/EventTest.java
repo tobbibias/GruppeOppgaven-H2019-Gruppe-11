@@ -2,7 +2,6 @@ package no.hiof.tobiasgs.GruppeOppgaven.Model;
 
 import org.junit.jupiter.api.Test;
 
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Date;
 
