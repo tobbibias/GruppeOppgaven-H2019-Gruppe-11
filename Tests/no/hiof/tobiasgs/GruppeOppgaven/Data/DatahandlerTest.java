@@ -1,10 +1,9 @@
-package main.java.no.hiof.tobiasgs.GruppeOppgaven.Data;
+package no.hiof.tobiasgs.GruppeOppgaven.Data;
 
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Athlete;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.User;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 class DatahandlerTest {
 

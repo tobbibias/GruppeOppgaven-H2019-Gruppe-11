@@ -1,5 +1,7 @@
 package no.hiof.tobiasgs.GruppeOppgaven.Model;
 
+import no.hiof.tobiasgs.GruppeOppgaven.Data.FederationDatahandler;
+import no.hiof.tobiasgs.GruppeOppgaven.Data.SportsclubDataHandler;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

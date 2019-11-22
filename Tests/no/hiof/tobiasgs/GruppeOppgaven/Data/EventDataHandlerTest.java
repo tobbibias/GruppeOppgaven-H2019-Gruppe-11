@@ -1,5 +1,6 @@
 package no.hiof.tobiasgs.GruppeOppgaven.Data;
 
+import javafx.event.Event;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Events;
 import no.hiof.tobiasgs.GruppeOppgaven.Model.Federation;
 import org.junit.jupiter.api.Test;
